@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging / executables
+build/
+dist/
+*.egg-info/
+*.spec
+*.exe
+
+# Virtual Environments
+.env
+.venv
+.venv-*/
+env/
+venv/
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Documents, reports, drafts and reference files
+*.docx
+*.doc
+*.pdf
+*Claude*.md
+*claude*.md
+*Reference*.md
+*reference*.md
+*report*.py
+*Report*.py
+G65_implementation_plan.md
+implementation_summary.md
+
+# Image / plot output folders and figures
+*.png
+*.jpg
+*.jpeg
+evaluation_plots/
+report_figures/
+shap_analysis/
+evaluation_reports/

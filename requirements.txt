@@ -1,0 +1,47 @@
+# G65 Phishing Detection Framework Requirements
+# Install with: pip install -r requirements.txt
+
+# Core Data Science
+pandas>=1.5.0
+numpy>=1.23.0
+scikit-learn>=1.2.0
+
+# Machine Learning Models
+xgboost>=1.7.0
+
+# Natural Language Processing (for future text analysis)
+# transformers>=4.30.0
+# torch>=2.0.0
+
+# Feature Extraction
+tldextract>=5.0.0
+
+# Model Explainability
+shap>=0.42.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Web Application
+streamlit>=1.24.0
+
+# Development Utilities
+jupyter>=1.0.0
+notebook>=6.5.0
+ipykernel>=6.0.0
+
+# Additional Utilities
+tqdm>=4.65.0
+python-dotenv>=1.0.0
+
+# For Windows compatibility
+pywin32>=305  # Only on Windows
+
+# Optional: For handling warnings
+
+
+# Version notes:
+# - XGBoost may require Microsoft C++ Build Tools on Windows
+# - SHAP requires C++ compiler on some systems
+# - Transformers/Torch are commented out but can be enabled for NLP features
